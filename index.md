@@ -22,6 +22,5 @@ Any algorithm that can be implemented on a normal computer can also be implement
 Several areas which smart contracts are especially suited for include but are not limited to:
   * Healthcare
   * Public records
-  * Legal frameworks
   * Machine learning
   * Decentralized applications
