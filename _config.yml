@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Purple
 email: octavonce@gmail.com
-description: An asynchronous smart contract platform.
+description: A scalable smart contract platform.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://purpleprotocol.org
 twitter_username: jekyllrb
