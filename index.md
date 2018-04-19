@@ -8,4 +8,4 @@ title: null
 ---
 
 ## What is Purple?
-Purple is a peer to peer network designed for decentralized computing. What this basically means is that each user of the Purple network has the ability to upload pieces of code, commonly known as “smart contracts” and the other computers connected to the network will execute that piece of code whenever required.  
+Purple is a peer-to-peer network designed for decentralized computing. <br><br> Users of the Purple network have the ability to upload pieces of code to the network which, when triggered, will be run on each computer that is connected to it. Consensus is achieved by using a novel algorithm which is best described as being a **decentralized clock**.<br><br> This enables the ordering of transactions in an asynchronous setting, providing a scalable platform for running decentralized software.
