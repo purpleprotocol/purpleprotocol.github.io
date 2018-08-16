@@ -8,23 +8,20 @@ title: null
 ---
 
 ## What is Purple?
-Purple is a scalable cryptocurrency which supports the execution of smart contracts. 
+Purple is a platform for building highly scalable decentralized applications. Using a novel consensus algorithm and by employing sharding, Purple can reach a throughput of around 1.2 million transactions per second, making it the fastest decentralized protocol that exists. 
 
-## How well does Purple scale when compared to Bitcoin or Ethereum?
-Bitcoin can only process 3 to 4 transactions per second, Ethereum on the other hand can process around 15 to 20. This is because the network is bottlenecked by the Proof of Work algorithm. 
+## How is Purple different from other platforms?
+Purple uses neither Proof of Work nor Proof of Stake in order to achieve consensus. A number of nodes called sequencers are responsible for processing transactions. 
 
-## What consensus algorithm does Purple use?
-Purple uses neither Proof of Work nor Proof of Stake in order to achieve transaction consensus. A number of nodes called sequencers are responsible for processing pending transactions. A node becomes a sequencer by providing a valid Proof of Work on the last state of active sequencer nodes. In this way, sequencer nodes are selected in an unbiased and decentralized manner.
+Sequencer nodes then achieve consensus by employing a fast, asynchronous consensus algorithm which sacrifices a bit of resilience in favor of speed. 
 
-Sequencer nodes then achieve consensus among themselves by establishing a partial causal order between the transaction events that they send between themselves and then vote on which of the events are to be included in the ledger.
+Since the actual consensus algorithm is resillient as long as a third or less of the nodes implicated in it are malicious, the idea is to use Proof of Work to rate-limit the number of nodes participating in the consensus algorithm while randomizing the chance of becoming one, making participation highly decentralized. 
 
-Pending transactions are processed by a faster consensus algorithm while current sequencers are established using the Proof of Work algorithm which makes the network secure against attackers.
+A node becomes a sequencer by providing a valid Proof of Work on the last state of active sequencer nodes and the difficulty of the algorithm is adjusted dinamically to always maintain a set of active nodes that are owned by different entities.
 
-In this way, Purple offers the same security properties as Bitcoin while enabling a much higher transaction throughput.
+By using Proof of Work in this way, the security of the network is similar to a full-fledged Proof of Work protocol but without sacrificing speed.
 
-## Why not just use Proof of Stake?
-Because Proof of Stake systems are centralized.
+## What similarities does Purple have with Ethereum?
+Purple seeks to improve upon pioneering work of Ethereum, which was the first decentralized applications platform. While being truly revolutionary when it was released, it also suffered from several flaws which were really hard to avoid at that time, the biggest of which is it's poor scalability. 
 
-Only users of the network which own a substantial amount of tokens can approve transactions. If all of the approvers collude, they can approve transactions maliciously. 
-
-This also means that when an approver's node is offline, it cannot approve transactions, making the network's throughput decrease.  
+For this reason, Purple shares many design decisions that were proven successful with the Ethereum protocol while improving on the parts that were not so great. 
