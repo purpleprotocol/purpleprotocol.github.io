@@ -1,83 +1,14 @@
-<header class="site-header" role="banner">
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" style="padding-left: 33px;" rel="author" href="{{ "/" | relative_url }}">
-      <svg width="30" height="30" style="cursor: pointer; position: absolute; margin-top: 12px;margin-left: -35px;" data="{{ '/assets/logo.svg' | relative_url }}" <?xml version="1.0" encoding="utf-8"?>
-        <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 74.1 95" style="enable-background:new 0 0 74.1 95;" xml:space="preserve">
-        <style type="text/css">
-          .st0{fill:none;stroke:#B8AEE0;stroke-width:12.9604;stroke-miterlimit:10;}
-          .st1{fill:#562DBA;}
-          .st2{opacity:0.8;fill:#562DBA;}
-          .st3{opacity:0.4;fill:#562DBA;}
-          .st4{fill:#E6E6E6;}
-          .st5{fill:#F2F2F2;}
-          .st6{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-          .st7{fill:none;stroke:#562DBA;stroke-width:1.5;stroke-miterlimit:10;}
-          .st8{fill:none;stroke:#562DBA;stroke-width:2;stroke-miterlimit:10;}
-          .st9{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
-          .st10{fill:none;stroke:#562DBA;stroke-width:3;stroke-miterlimit:10;}
-          .st11{opacity:0.3;}
-          .st12{fill:none;stroke:#562DBA;stroke-width:7.7866;stroke-miterlimit:10;}
-          .st13{fill:none;stroke:#562DBA;stroke-width:23.296;stroke-miterlimit:10;}
-          .st14{fill:none;stroke:#562DBA;stroke-width:23.2527;stroke-miterlimit:10;}
-          .st15{fill:none;stroke:#562DBA;stroke-width:2.5;stroke-miterlimit:10;}
-          .st16{fill:#562DBA;stroke:#562DBA;stroke-width:2;stroke-miterlimit:10;}
-          .st17{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
-          .st18{fill:#FFFFFF;}
-          .st19{fill:none;stroke:#FFFFFF;stroke-width:22.798;stroke-miterlimit:10;}
-          .st20{fill:none;stroke:#562DBA;stroke-width:18.2006;stroke-miterlimit:10;}
-          .st21{fill:none;stroke:#FFFFFF;stroke-width:18.2006;stroke-miterlimit:10;}
-          .st22{fill:none;stroke:#B8AEE0;stroke-width:18.8928;stroke-miterlimit:10;}
-          .st23{opacity:0.1;}
-          .st24{fill:none;stroke:#562DBA;stroke-width:18.8928;stroke-miterlimit:10;}
-          .st25{fill:#CCCCCC;}
-          .st26{fill:none;stroke:#562DBA;stroke-width:12.9604;stroke-miterlimit:10;}
-          .st27{fill:none;stroke:#B8AEE0;stroke-width:11.337;stroke-miterlimit:10;}
-          .st28{fill:none;stroke:#562DBA;stroke-width:11.337;stroke-miterlimit:10;}
-          .st29{fill:none;stroke:#FFFFFF;stroke-width:13.7746;stroke-miterlimit:10;}
-          .st30{fill:none;stroke:#562DBA;stroke-width:9.3116;stroke-miterlimit:10;}
-          .st31{fill:none;stroke:#715DC2;stroke-width:9.3116;stroke-miterlimit:10;}
-          .st32{fill:none;stroke:#B8AEE0;stroke-width:9.3116;stroke-miterlimit:10;}
-          .st33{fill:none;stroke:#FFFFFF;stroke-width:9.3116;stroke-miterlimit:10;}
-          .st34{fill:none;stroke:#E6E6E6;stroke-width:9.3116;stroke-miterlimit:10;}
-          .st35{fill:#715DC2;}
-          .st36{fill:none;stroke:#562DBA;stroke-width:13.7746;stroke-miterlimit:10;}
-        </style>
-        <path class="st1" d="M37.5,1.1v11.3C50.5,12.5,61,23,61,36.1S50.3,59.7,37.2,59.7S13.5,49.1,13.5,36.1v-13v-4.4h-11v4.4v13v56.6h11
-          V61.8c6,5.7,14.6,9.2,23.7,9.2c19.3,0,35.1-15.7,35.1-35S56.5,1.1,37.5,1.1z"/>
-        </svg>
-      {{ site.title | escape }}
-    </a>
 
-    {%- if page_paths -%}
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            
-            {% if my_page.url == "/" %}{% continue %}{% endif %}
-            
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {% endfor -%}
-        </div>
-      </nav>
-    {%- endif -%}
+<div class="top-bar" id="example-menu" style="background: transparent;">
+  <div class="top-bar-left" style="background: transparent;">
+    <ul class="dropdown menu" data-dropdown-menu style="background: transparent;">
+      <li class="menu-text" style="color:#6b30b7;"><a href="/" style="color:#6b30b7;">Purple</a></li>
+    </ul>
   </div>
-</header>
+  <div class="top-bar-right" style="background: transparent;">
+    <ul class="dropdown menu" data-dropdown-menu style="background: transparent;">
+      <li><a href="/whitepaper/" target="blank" style="color:#6b30b7;">Whitepaper</a></li>
+    </ul>
+  </div>
+</div>
