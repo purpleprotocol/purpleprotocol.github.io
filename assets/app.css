@@ -13,3 +13,7 @@ h1 {
 .top-logo {
     margin-top:15vh;
 }
+
+li {
+    margin: 0 -8px;
+}
