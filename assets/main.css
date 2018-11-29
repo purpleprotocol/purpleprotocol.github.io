@@ -1,4 +1,284 @@
-@charset "UTF-8";
+/*     V 2.0      */
+
+* {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: #333;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar .logo {
+  justify-content: flex-start;
+}
+
+#spacer {
+  flex-grow: 1;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {   
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .navbar a {
+    font-size: 0.5rem;
+  }
+
+  .spacer {
+    flex-grow: 0;
+  }
+}
+
+/*BANNER*/
+
+.banner {
+  background-color: #3F188E;
+  color: white;
+  padding: 20%;
+  text-align: center;
+}
+
+.banner button {
+background-color: white;
+padding: 20px 40px;
+}
+
+.banner button a {
+  color: #3F188E;
+}
+
+.title {
+  text-align: center;
+}
+
+.features {
+  text-align: center;
+}
+
+
+
+
+/* FEATURES  */
+
+
+
+.features .row {
+  display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+.features .column {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: 333;
+  
+}
+
+.features .main {
+  align-items: center;
+  justify-content: center;
+  flex: 70%;
+  margin:20px 10px;
+  font-size: 10px;
+  
+}
+
+.features .side {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+
+
+/* CASES */
+
+
+
+.cases .row {
+  display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0 100px;
+
+}
+.cases .column {
+  width: 600px;
+  display: flex;
+  background-color: 333;
+  flex-direction: row;
+  
+}
+
+.cases .main {
+  align-items: center;
+  justify-content: center;
+  flex: 50%;
+  margin:20px 10px;
+  font-size: 10px;
+  
+}
+
+.cases .side {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+
+
+
+/* Programming*/
+
+
+.programming {
+  background-color:#3F188E;
+  color: white; 
+  padding: 200px 100px;
+}
+
+.programming .row {
+  border: 1px solid white;
+  display: flex;
+   flex-direction: row;
+   margin: 0 100px;
+   
+
+}
+
+.programming .main {
+  align-items: center;
+  justify-content: center;
+  flex: 50%;
+  margin:20px 10px;
+  font-size: 10px;
+  
+}
+
+.programming .side {
+  display: flex;
+  padding: 20px;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+
+/* INFO */
+
+.bottom-logo{
+  display: flex;
+  justify-content: center;
+  background-color: #3c1689;
+}
+
+.info {
+  background-color: #3c1689;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+}
+
+.item {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center
+}
+
+@media screen and (max-width: 500px) {
+  .features .row{
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    
+  }
+
+  .features .column {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .cases .row{
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .cases .column {
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+.programming {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+  .programming .row {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .programming .main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .programming .side {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+
+}
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.2
@@ -36,7 +316,8 @@ html {
      * Remove the margin in all browsers (opinionated).
      */
 body {
-  margin: 0; }
+  margin: 0;
+  font-size: 20px }
 
 /**
      * Add the correct display in IE 9-.
@@ -113,7 +394,9 @@ section {
   z-index: 5;
 }
 
-
+.dragos-grid {
+  background-color: red;
+}
 
 
 .demo-toggle-title {
