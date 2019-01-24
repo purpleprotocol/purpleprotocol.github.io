@@ -13,9 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Purple
+title: Purple Protocol
 email: octavonce@gmail.com
-description: Fast, Programmable, Multi-Asset Blockchain Protocol
+description: An incredibly fast blockchain protocol with native support for utility and security tokens and smart contracts
+seo: Fast Consensus | Smart contracts | DEX | Mining | Security Tokens | Utility Tokens | SSPoW 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://purpleprotocol.org
 twitter_username: jekyllrb
