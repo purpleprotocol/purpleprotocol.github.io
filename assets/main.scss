@@ -1,3 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
 @charset "UTF-8";
 /**
  * Foundation for Sites by ZURB
@@ -10,6 +14,27 @@
     right: auto;
     left: auto;
     margin: 0 auto; } }
+
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+
+@import 'minima';
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Maven Pro', sans-serif;
+  }
+
+h1 {
+    font-weight: 700;
+    margin-top:10vh;
+}
+.top-logo {
+    margin-top:15vh;
+}
+
+li {
+    margin: 0 -8px;
+}
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -181,7 +206,6 @@ background-color: none !important;
 
 .marketing-site-footer-bottom {
   background: #ffffff;
-  padding: 1rem 0;
 }
 
 .marketing-site-footer-bottom p,
@@ -2362,12 +2386,11 @@ form,
 p,
 blockquote,
 th,
-td {
+/* td {
   margin: 0;
-  padding: 0; }
+  padding: 0; } */
 
 p {
-  margin-bottom: 1rem;
   font-size: inherit;
   line-height: 1.6;
   text-rendering: optimizeLegibility; }
@@ -2526,13 +2549,13 @@ abbr, abbr[title] {
 figure {
   margin: 0; }
 
-code {
+/* code {
   padding: 0.125rem 0.3125rem 0.0625rem;
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
-  color: #0a0a0a; }
+  color: #0a0a0a; } */
 
 kbd {
   margin: 0;
