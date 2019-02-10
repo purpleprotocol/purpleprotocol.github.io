@@ -12,16 +12,16 @@ Now, in order to follow up on all of the silent months, this is what has been ma
 
 ##### Protocol
 
-- The code of the protocol is being ported to rust since November 2018.
+- The code of the protocol is being ported to Rust since November 2018.
 
 - Sharding has been dropped in favor of single shard consensus. There are too many hoops to be jumped through which mainly increase the vulnerability of the network, in the end defeating it's whole purpose as a safe alternative to existing payment systems.
 
-- We have begun developing the virtual machine which will be responsible for executing smart contract code. It is designed with the sole purpose of being a compiler target for LLVM infrastructure. The goal is to enable developers to write smart contracts in any LLVM compatible programming language (C++, Rust, C#, Java, etc). 
+- We have begun developing the virtual machine which will be responsible for executing smart contract code. It is designed with the sole purpose of being a compiler target for the LLVM compiler infrastructure. The goal is to enable developers to write smart contracts in any LLVM compatible programming languages (C++, Rust, C#, Java, etc). 
 
-- We are now solely focusing on writing the final optimized protocol code with experimentation moving from the architecture level to implementation level. Therefore, the project has taken it's first step in maturization, almost a year after it's inception.
+- We are now solely focusing on writing the final optimized protocol code with experimentation moving from the architecture level to the implementation level. Therefore, the project has taken it's first concrete step towards it's maturity, almost a year after it's inception.
 
 ##### ICO
-- The legality around ICOs is getting tougher and tougher making it incredibly hard to host one. We mainly believe that we will not host an ICO in the near future.
+- The legality around ICOs is getting tougher and tougher making it incredibly hard to host one. For this reason, we mainly believe that we will not host an ICO in the near future. This might cause a bit of frustration in the short-term but it will enable to it to grow more organically and harmoniously in the future. 
 
 - For this reason, we will be focusing on alternative methods of funding the project. In a couple of weeks we will be launching a crowdfunding campaign that is entirely based on donations. Even though it may not be as favorable as an ICO, it will keep the project up and running. Stay tuned for this.
 
