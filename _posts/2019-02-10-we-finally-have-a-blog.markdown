@@ -2,6 +2,7 @@
 layout: post
 title:  "We Finally Have a Blog!"
 date:   2019-02-10 13:24:41 +0300
+author: Octavian Oncescu
 categories: purple update
 ---
 It has been long enough, we now finally have a blog! No longer are the days of confusion and silent updates since this blog will serve from now on as the main source of updates regarding the Purple Protocol.
