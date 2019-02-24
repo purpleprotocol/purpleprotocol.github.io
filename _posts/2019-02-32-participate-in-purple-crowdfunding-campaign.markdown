@@ -6,7 +6,7 @@ author: Octavian Oncescu
 categories: purple crowdfunding
 ---
 
-This blog post explains how to support Purple by participating in its crowdfunding campaing.
+This blog post explains how to support Purple by participating in its crowdfunding campaign.
 
 ### How to participate
 There are two ways in which you can participate in Purple's crowdfunding:
