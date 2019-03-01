@@ -11,7 +11,7 @@ One year ago today, I began dedicating my full available time on researching abo
 ###  Background
 Back in early 2017, before I was even beginning to consider working on a blockchain project, I was a simple but curious hacker experimenting with distributed, concurrent systems and the functional paradigm. I was quite attracted to the idea that a well built distributed system could scale linearly and use all of the available computing resources in an efficient manner. 
 
-One thing after the other, and I found myself reading about subjects such as master/master database replication and how this brings an incredible improvement in performance with the caveat of having a much higher difficulty in architecting the mechanism in which the database nodes sync and keep track between themselves a.k.a. **how they achieve consensus**. 
+One thing led to another other, and I found myself reading about subjects such as master/master database replication and how this brings an incredible improvement in performance with the caveat of having a much higher difficulty in architecting the mechanism in which the database nodes sync and keep track between themselves a.k.a. **how they achieve consensus**. 
 
 #### The party
 
