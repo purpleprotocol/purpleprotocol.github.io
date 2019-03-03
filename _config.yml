@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Purple Protocol
 email: octavonce@gmail.com
-description: An incredibly fast blockchain protocol with native multi-asset support and smart contracts
+description: The Modern Blockchain Protocol
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://purpleprotocol.org
 twitter_username: jekyllrb
