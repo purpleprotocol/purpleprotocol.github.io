@@ -147,8 +147,12 @@ section {
 
 .cover
 {
-background-image:url('/assets/img/hero.svg') !important;
+background-image:url('/assets/img/hero3.png') !important;
 background-color: none !important;
+background-size: cover; /* or contain depending on what you want */
+background-position: center center;
+background-repeat: no-repeat;
+color: #ffffff;
 }
 
 .marketing-site-footer {
