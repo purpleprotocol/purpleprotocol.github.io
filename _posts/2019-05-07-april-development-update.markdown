@@ -41,7 +41,7 @@ This is a problem which might endanger the growth of the network, especially in 
 The solution for this is to join more than one validator in one step, thus removing any chance of the pool having too few validators to operate safely. 
 
 #### A trinity of chains
-The solution is to split validator chain into two separate chains. The first of them has mostly the same role as the previous validator chain: mark a synchronous step in the consensus algorithm and to introduce one validator to the pool (the miner of the block). 
+The solution is to split the validator chain into two separate chains. The first of them has mostly the same role as the previous validator chain: mark a synchronous step in the consensus algorithm and to introduce one validator to the pool (the miner of the block). 
 
 The second chain will be responsible for **buffering additional validators** which will be also added to validator pool. This chain will also have lower difficulty than the previous one but will yield no coinbase rewards, but successful miners of this chain who become validators will still receive mining fees as reward at the end of their consensus lifetime.
 
