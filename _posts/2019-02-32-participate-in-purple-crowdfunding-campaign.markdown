@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Purple Protocol Crowdfunding"
+title:  "Help Support the Development of the Purple Protocol"
 date:   2019-02-23 13:24:41 +0300
 author: Octavian Oncescu
 categories: purple crowdfunding
