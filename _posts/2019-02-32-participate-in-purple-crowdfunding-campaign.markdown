@@ -4,6 +4,7 @@ title:  "Help Support the Development of the Purple Protocol"
 date:   2019-02-23 13:24:41 +0300
 author: Octavian Oncescu
 categories: purple crowdfunding
+description: Imagine a world where you can send or trade any kind of asset with anyone in the world, instantly...
 ---
 
 Imagine a world where you can send or trade any kind of asset with anyone in the world,instantly. A world where anyone in the world can receive funds to jumpstart a project, even if they are in Africa. A world where central banks do not control the issuance of currency. A world that is fairer for everyone.

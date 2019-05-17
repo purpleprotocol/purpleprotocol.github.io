@@ -4,6 +4,7 @@ title:  "Purple Turns One Year Old Today"
 date:   2019-03-01 13:24:41 +0300
 author: Octavian Oncescu
 categories: purple update
+description: One year ago today, I began dedicating my full available time on researching about the scalability issue...
 ---
 
 One year ago today, I began dedicating my full available time on researching about the scalability issue in public blockchains and on building the Purple Protocol. What a challenging and incredible year this was!

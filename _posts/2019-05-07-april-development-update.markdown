@@ -4,6 +4,7 @@ title:  "Purple Protocol April 2019 Development Update"
 date:   2019-05-07 13:24:41 +0300
 author: Octavian Oncescu
 categories: purple development update
+description: For the past month, we have been mostly focusing on the second part of the consensus logic...
 ---
 
 For the past month, we have been mostly focusing on the second part of the consensus logic: implementing the code responsible for storing and choosing chains of blocks. Along the way, we have also made a few simple but effective architecture updates which smooth out the state transitions of the ledger and thus make it more secure.

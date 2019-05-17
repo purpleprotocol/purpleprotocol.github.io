@@ -1,11 +1,19 @@
 <title>{{site.title}}</title>
 <meta name="generator" content="Jekyll v3.7.3" />
-<meta property="og:title" content="Purple" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="{{site.description}}" />
-<meta property="og:description" content="{{site.description}}" />
-<link rel="canonical" href="{{site.url}}" />
-<meta property="og:url" content="{{site.url}}" />
+{%- if page.url == "/" -%}
+    <meta property="og:title"              content="Purple Protocol" />
+    <meta property="og:description"        content="{{site.description}}" />
+  {%- else -%}
+    <meta property="og:title"              content="{{ page.title }}" />
+    <meta property="og:description"        content="{{ page.description }}" />
+  {%- endif -%}
+  <meta property="og:image"              content="{{ "/assets/img/logo.png" | absolute_url }}" />
+
+
+<link rel="canonical" href="{{page.url | absolute_url }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:site_name" content="{{site.title}}" />
 <script type="application/ld+json">
 {"name":"Purple","description":"{{site.description}}","@type":"WebSite","url":"{{site.url}}","headline":"{{site.title}}","@context":"http://schema.org"}</script>
