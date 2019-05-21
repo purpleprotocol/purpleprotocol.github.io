@@ -9,6 +9,13 @@ description: Imagine a world where you can send or trade any kind of asset with 
 
 Imagine a world where you can send or trade any kind of asset with anyone in the world,instantly. A world where anyone in the world can receive funds to jumpstart a project, even if they are in Africa. A world where central banks do not control the issuance of currency. A world that is fairer for everyone.
 
+### How to participate
+There are two ways in which you can participate in Purple's crowdfunding:
+* By sending bitcoin to `1CAAxrYvQ2T4ZGkS58ULEh2icK5Fp9uwJL`. 
+* By participating in our [GoFundMe campaign][gofundme].
+
+[gofundme]: https://www.gofundme.com/purple-crowdfunding&rcid=r01-1550937453-ce58069be2734715&pc=ot_co_campmgmt_w
+
 ### What is Purple?
 The Purple Protocol is an experimental blockchain protocol that is still under development. Its aim is to provide a digital payment solution that has a speed comparable to the payment processor VISA but in a completely decentralized setting, meaning that no one controls the network or can alter its transaction history. 
 
@@ -31,7 +38,7 @@ However, after several months in which regulatory pressure kept increasing, this
 
 Now we find ourselves in a situation where we have a great solution to the problem's of today's blockchain systems but we do not have the capital necessary to bring it to completion.
 
-### Your turn to help us
+### Help us help the world
 By helping us you will be helping the whole world. If you are the kind of person that wants to change the world but is otherwise unable to do so, this is the time to take action. Help us change the world for the better! 
 
 We plan to use the funds for at least the following things:
@@ -52,13 +59,6 @@ In the beginning the idea was to develop the protocol up until it becomes testab
 However, after several months in which regulatory pressure kept increasing, this became less and less of an option. As the project neared the inteded goal of network testability, the pressures of hosting an ICO became too great. 
 
 Now we find ourselves in a situation where we have a great solution to the problem's of today's blockchain systems but we do not have the capital necessary to bring it to completion.
-
-### How to participate
-There are two ways in which you can participate in Purple's crowdfunding:
-* By sending bitcoin to `1CAAxrYvQ2T4ZGkS58ULEh2icK5Fp9uwJL`. 
-* By participating in our [GoFundMe campaign][gofundme].
-
-[gofundme]: https://www.gofundme.com/purple-crowdfunding&rcid=r01-1550937453-ce58069be2734715&pc=ot_co_campmgmt_w
 
 ### Thank you
 We thank anyone who chooses to support us in achieving our mission: building the first scalable decentralized payment system. Know that by helping you will become part of something greater than yourself which has the potential to change the world.
