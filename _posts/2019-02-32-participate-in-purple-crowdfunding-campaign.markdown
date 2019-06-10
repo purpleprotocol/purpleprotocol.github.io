@@ -9,8 +9,8 @@ description: Imagine a world where you can send or trade any kind of asset with 
 
 Imagine a world where you can send or trade any kind of asset with anyone in the world,instantly. A world where anyone in the world can receive funds to jumpstart a project, even if they are in Africa. A world where central banks do not control the issuance of currency. A world that is fairer for everyone.
 
-### How to participate
-There are two ways in which you can participate in Purple's crowdfunding:
+### How to donate
+There are the ways in which you can contribute:
 * By sending bitcoin to `1CAAxrYvQ2T4ZGkS58ULEh2icK5Fp9uwJL`. 
 * By pledging a monthly donation on our [LiberaPay page](https://liberapay.com/octavonce/).
 * By participating in our [GoFundMe campaign][gofundme].
