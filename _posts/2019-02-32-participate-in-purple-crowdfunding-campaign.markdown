@@ -21,7 +21,7 @@ There are the ways in which you can contribute:
 The Purple Protocol is an experimental blockchain protocol that is still under development. Its aim is to provide a digital payment solution that has a speed comparable to the payment processor VISA but in a completely decentralized setting, meaning that no one controls the network or can alter its transaction history. 
 
 ### Ok, this sounds nice. Is it all it can do?
-No. Besides being a payment processor, the Purple Protocol also supports advanced ledger scripting capabilities via smart contracts . These are software programs that run on the blockchain itself. This means that once a smart contract is uploaded to the blockchain, it cannot ever be altered by anyone, including its creator. 
+No. Besides being a payment processor, the Purple Protocol also supports advanced ledger scripting capabilities via smart contracts. These are software programs that run on the blockchain itself. This means that once a smart contract is uploaded to the blockchain, it cannot ever be altered by anyone, including its creator. 
 
 A better explanation would be the following: Think of the blockchain as a kind of public computer that no one owns or controls. Smart contracts are the software that runs on this public computer. Anyone can also see the source code of all uploaded smart contracts. 
 
