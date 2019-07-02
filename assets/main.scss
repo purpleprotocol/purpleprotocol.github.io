@@ -5340,8 +5340,8 @@ a.thumbnail {
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
