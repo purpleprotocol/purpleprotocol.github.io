@@ -88,8 +88,8 @@ section {
 
 #socialfooter{
   box-shadow: none;
-  width:36px;
-  height: 36px;
+  width:30px;
+  height: 30px;
 }
 
 #table{
@@ -138,8 +138,10 @@ section {
   z-index: 5;
 }
 
-
-
+.page-content {
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
 
 .demo-toggle-title {
   margin-top: 0.5rem;
@@ -3248,7 +3250,7 @@ select {
   width: 100%; }
 
 .accordion-menu a {
-  padding: 0.7rem 1rem; }
+  padding: 0.7rem 0.9rem;; }
 
 .accordion-menu .is-accordion-submenu a {
   padding: 0.7rem 1rem; }
@@ -3576,6 +3578,12 @@ select {
     font-size: 2em;
     line-height: 1; }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .menu {
   padding: 0;
   margin: 0;
@@ -3592,7 +3600,7 @@ select {
     line-height: 1;
     text-decoration: none;
     display: block;
-    padding: 0.7rem 1rem; }
+    padding: 0.7rem 0.9rem; }
   .menu input,
   .menu select,
   .menu a,
