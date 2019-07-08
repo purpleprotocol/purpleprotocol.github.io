@@ -3,16 +3,16 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body style="overflow: hidden;">
+    <div style="display: flex; flex-direction: column; height: 100vh;">
+      {%- include header.html -%}
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
+      <main class="page-content" aria-label="Content">
         {{ content }}
-    </main>
+      </main>
 
-    {%- include footer.html -%}
-
+      {%- include footer.html -%}
+    </div>
   </body>
 
 </html>

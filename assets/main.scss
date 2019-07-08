@@ -139,8 +139,8 @@ section {
 }
 
 .page-content {
-  padding-top: 55px;
-  padding-bottom: 65px;
+  flex-grow: 1;
+  overflow-y: scroll;
 }
 
 .demo-toggle-title {
@@ -3579,7 +3579,6 @@ select {
     line-height: 1; }
 
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -5326,7 +5325,7 @@ a.thumbnail {
     right: 10%; }
 
 .top-bar {
-  position: fixed;
+  min-height: 68px;
   width: 100%;
   display: -ms-flexbox;
   display: flex;
