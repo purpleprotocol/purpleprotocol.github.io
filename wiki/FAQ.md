@@ -33,4 +33,4 @@ Miners choose to include transactions in blocks based on their own preference fo
 In order to use smart contracts, one has to pay for gas, which can only be done with purple.
 
 ### Ok all of this sounds nice, when can I get my hands on it?
-Hopefully by the end of 2019. We aim to launch the first test-net around mid June 2019 or earlier if possible. If all goes well and there are no issues (there will surely be issues on the first test-net) for at least a few months on the test-net, then we can begin to prepare for the main-net launch. 
+Hopefully by the end of 2019. We aim to launch the first test-net around mid August 2019 or earlier if possible. If all goes well and there are no issues (there will surely be issues on the first test-net) for at least a few months on the test-net, then we can begin to prepare for the main-net launch. 
