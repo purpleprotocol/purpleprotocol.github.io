@@ -41,7 +41,7 @@ This section is a deeply technical one and can be skipped by non-technical reade
 The problem underpinning the [famous DAO attack](https://www.coindesk.com/understanding-dao-hack-journalists) in Ethereum is also the main problem that underpins competent oracles, at the protocol layer.
 
 The problem is actually two-fold:
-* **Re-entrancy** can allow an attacker to potentially alter the internal state of a contract in a way that it was not designed to be changed. This happens when we have a circular dependency between several contracts i.e. contract A depends on contract B which depends on contract C which, in turn, depends on contract A.
+* **Re-entrancy** can allow an attacker to potentially alter the internal state of a contract in a way that it was not designed to be changed. This happens when we have a circular dependency between several contracts i.e. contract `A` depends on contract `B` which depends on contract `C` which, in turn, depends on contract `A`.
 
 *  When performing state changes on a contract that requires multiple, separate transactions altering the state, there is no built-in protocol for atomic synchronization in this use-case which is obviously happening asynchronously.
 
