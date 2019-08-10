@@ -19,7 +19,9 @@ layout: default
     {{ content }}
   </div>
 
-  <div>
+  {% include share_buttons.html %}
+
+  <div style="padding-top: 5px;">
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">&laquo; Previous</a>
     {% endif %}
@@ -28,8 +30,6 @@ layout: default
       <a class="next" style="float: right;" href="{{page.next.url}}">Next &raquo;</a>
     {% endif %}
   </div>
-
-  {% include share_buttons.html %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

@@ -54,11 +54,11 @@ The answer to the first problem is simple: disallow circular dependencies betwee
 
 The second problem instead, is solved using a pattern that has been used in low-level synchronization primitives for decades now: the `Read/Write Lock Pattern`.
 
-The Read/Write Lock or RwLock synchronization pattern is used in low-level programming to allow either **many readers of a shared resource to immutably read the resource** or a **single writer that is allowed to modify the resource**.
+The `Read/Write Lock` or `RwLock` synchronization pattern is used in low-level programming to allow either **many readers of a shared resource to immutably read the resource** or a **single writer that is allowed to modify the resource**.
 
 This was the essence of the DAO bug: a multi-transaction write operation was performing a race condition with other read operations and was resulting in undefined behavior.
 
-By using the RwLock pattern, we can effectively solve this issue by requiring contract methods that modify the state to hold a write lock on the state. **Read transactions will only be valid once the lock has been released, either by the writer in a another transaction or implicitly after a number of blocks have passed**.
+By using the `RwLock` pattern, we can effectively solve this issue by requiring contract methods that modify the state to hold a write lock on the state. **Read transactions will only be valid once the lock has been released, either by the writer in a another transaction or implicitly after a number of blocks have passed**.
 
 ### Asset Transfer Conditions
 Now that we have presented the underlying primitives that allow oracles to exist in the Purple Protocol, we can present one of the main things that we can do with them: **allow or deny asset transfers at the protocol layer based on a predicate on an oracle result**. 
