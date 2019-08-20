@@ -11,11 +11,14 @@ We do not know yet, but our guess is that it can process around a few thousand t
 ### What inspired this project?
 The vision behind Bitcoin was a democratic way to send money through the internet. There were only two problems: it couldn't scale and bitcoin mining became centralized. The vision behind Purple is to bring Bitcoin's vision to fruition by being able to scale to mainstream use, allowing everyone to use a decentralized ledger in their every day lives.
 
+### Why build a new blockchain instead of upgrading old ones?
+It is very hard to change a decentralized blockchain system after it has been released. For this reason, we have chose to start everything from scratch and focus on building the best possible foundation for it to stand on.
+
 ### Who is behind this project?
-The Purple Protocol was originally envisioned by the software engineer Octavian Oncescu. Now, it is becoming more and more a community effort.
+The Purple Protocol was originally envisioned by the software engineer Octavian Oncescu. Now, it has become a community effort.
 
 ### How do you fund the development of the Purple Protocol?
-We currently do not have any investment whatsoever from any traditional source of funding such as Venture Capital or institutional investment. The development up until this point was self-funded. We also accept donations.
+We currently do not have any investment whatsoever from any traditional source of funding such as Venture Capital or institutional investment. The development up until this point was self-funded. We also [accept donations](https://purpleprotocol.org/blog/participate-in-purple-crowdfunding-campaign).
 
 ### Will there be an ICO/IEO/STO?
 At the time of writing this, we do not have any kind of crowd-sale planned. This can potentially change in the future but we do not guarantee it. The experimental nature of the protocol combined with the regulatory uncertainty makes us restrain from doing this at the moment. 
