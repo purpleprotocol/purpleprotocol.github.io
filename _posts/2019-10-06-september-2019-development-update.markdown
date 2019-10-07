@@ -21,9 +21,9 @@ This can happen as soon as the end of October but as always, roadblocks can stil
 Initially, no. The first phase of the test-net will be a preliminary phase where nothing is expected to work
 
 ##### Test-net phases overview
-* **Phase 1** - No-strings attached test-net where nothing is expected to work. Mining purple will be possible but no miner rewards will be retained in the main-net ledger.
-* **Phase 2** - Pre main-net where most of the things are expected to work but there are still issues to be discovered and solved. In this phase miner's rewards will be transferred into the main-net. The only caveat is that roll-backs are possible to happen in this phase which might result in some miners losing their rewards.
-* **Phase 3** - Main-net launch, after which we will no longer perform any state rollbacks.
+* **Phase 1** - No-strings attached test-net where nothing is expected to work. Mining purple will be possible but **no miner rewards will be retained in the main-net ledger**.
+* **Phase 2** - Pre main-net where most of the things are expected to work but there are still issues to be discovered and solved. In this phase miner's rewards will be transferred into the main-net. The only caveat is that **roll-backs are possible to happen in this phase which might result in some miners losing their rewards**.
+* **Phase 3** - Main-net launch, after which we will **no longer perform any state rollbacks**.
 
 ### Will I be able to develop and test Purple Dapps on the test-net?
 While compiler support will be severely limited in the first and probably the second phase, it will still be possible to deploy dapps to the test-net. This means you can start building and testing your dapps before the main-net launch.
