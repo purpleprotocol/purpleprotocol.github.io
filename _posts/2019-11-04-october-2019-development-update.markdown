@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol October 2019 Development Update"
 date: 2019-11-04 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: With this development update we are getting nearer to the launch of the alpha test-net...
 --- 

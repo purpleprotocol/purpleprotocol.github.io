@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol May 2019 Development Update"
 date:   2019-05-31 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: This month's development update is all about mining. Or rather, the mining algorithm behind Purple...
 --- 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Turns One Year Old Today"
 date:   2019-03-01 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple update
 description: One year ago today, I began dedicating my full available time on researching about the scalability issue...
 ---

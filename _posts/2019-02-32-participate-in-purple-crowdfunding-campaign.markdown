@@ -2,7 +2,7 @@
 layout: post
 title:  "Help Support the Development of the Purple Protocol"
 date:   2019-02-23 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple crowdfunding
 description: Imagine a world where you can send or trade any kind of asset with anyone in the world, instantly...
 ---

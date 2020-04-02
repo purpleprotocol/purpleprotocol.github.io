@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol February 2020 Development Update"
 date: 2020-03-02 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: This month's development is about block propagation and how we are solving this in Purple...
 --- 

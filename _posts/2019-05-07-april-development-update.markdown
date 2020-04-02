@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol April 2019 Development Update"
 date:   2019-05-07 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: For the past month, we have been mostly focusing on the second part of the consensus logic...
 ---

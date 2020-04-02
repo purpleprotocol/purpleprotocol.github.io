@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol November 2019 Development Update"
 date: 2019-12-01 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: This month's development update brings several changes and simplifications to the core consensus architecture of the protocol...
 --- 

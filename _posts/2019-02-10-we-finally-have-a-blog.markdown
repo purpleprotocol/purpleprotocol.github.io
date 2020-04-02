@@ -2,7 +2,7 @@
 layout: post
 title:  "We Finally Have a Blog!"
 date:   2019-02-10 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple update
 description: It has been long enough, we now finally have a blog! No longer are the days of confusion and silent updates...
 ---

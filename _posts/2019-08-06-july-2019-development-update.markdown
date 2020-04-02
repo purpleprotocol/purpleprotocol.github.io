@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol July 2019 Development Update"
 date: 2019-08-06 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: In this month's update we are going to present a feature of the Purple Protocol that allows something that has never been done before on a decentralized ledger...
 --- 

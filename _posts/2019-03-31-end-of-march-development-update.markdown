@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol End of March 2019 Development Update"
 date:   2019-03-31 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: For the past two months I have been designing and working on the two of the most important modules in the Purple Protocol...
 ---

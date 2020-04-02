@@ -2,7 +2,7 @@
 layout: post
 title:  "Purple Protocol August 2019 Development Update"
 date: 2019-09-09 13:24:41 +0300
-author: Octavian Oncescu
+author: Octavian Once
 categories: purple development update
 description: This month's update is about the beginning of performing network tests on Purple Core...
 --- 
