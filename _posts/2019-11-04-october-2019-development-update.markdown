@@ -42,9 +42,9 @@ You are the reason that keeps me going.
 ### Summary
 While this development update is still not about the anticipated launch of the test-net, it is one outlining some of the realities behind this act. It's a step closer to the great announcement which will show the world what Purple can offer. 
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!
 

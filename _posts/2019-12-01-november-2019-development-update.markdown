@@ -78,8 +78,8 @@ This development update is probably the most important one to date. It reflects 
 ### Thank you
 I would like to personally thank the community for sticking around in times of uncertainty. You are the reason that keeps me going through both good and bad. I hope that this update sheds more light for everyone on what the current state of affairs are and where we are headed.
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!

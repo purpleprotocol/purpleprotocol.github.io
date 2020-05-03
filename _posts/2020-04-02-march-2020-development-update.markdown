@@ -39,8 +39,8 @@ We are lucky to be able to continue the development during the pandemic as many 
 
 As always, we will carry on regardless of what life throws at us.
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!

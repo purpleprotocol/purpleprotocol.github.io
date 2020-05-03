@@ -79,10 +79,10 @@ It is hard to exactly pinpoint the moment when the first full-fledged testnet wi
 ### Summary
 In this month's development update we have gone in some of the design decisions at the core protocol layer that allows us to interface smart contracts with the outside world via oracles. This feature allows regulators to effectively apply rules to a decentralized protocol without breaking its underlying characteristics.
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol!
 
 

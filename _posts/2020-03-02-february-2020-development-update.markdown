@@ -44,8 +44,8 @@ While this change will definitely delay the release of Purple, we have currently
 ### Summary
 In this development update we have presented the final block propagation mechanism that will be used by Purple which was inspired by the way Bittorrent handles file replication on a peer-to-peer network.  
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!

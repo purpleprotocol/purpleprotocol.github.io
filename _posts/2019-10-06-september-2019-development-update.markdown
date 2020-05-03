@@ -33,9 +33,9 @@ Once we enter **Phase 2** the focus of the development effort will turn towards 
 ### Summary
 This month's development update is probably the last development update before we have a test-net up and running. We have presented the phases of the launch of the main-net in this update gave valuable information to individuals interested in mining on the Purple Protocol.
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!
 

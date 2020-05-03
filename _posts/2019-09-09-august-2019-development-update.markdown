@@ -24,10 +24,10 @@ There are now 4 developers who are actively contributing to or advising the deve
 ### Summary
 This month's development update is a short and late one. But good things are coming and the development of Purple Core is progressing further. With network tests underway, this is the first step towards the launch of Purple Core. 
 
-### Join Us
+### Join us
 If you believe that you can contribute to the development of the Purple Protocol, we encourage you to contact us! You can do so on our [discord](https://discord.gg/5ZVZnKd) or [telegram](https://t.me/purple_protocol) channels. 
 
-### Spread The Word
+### Spread the word
 Help us spread the word by sharing this article about the Purple Protocol! Stay tuned for more!
 
 
