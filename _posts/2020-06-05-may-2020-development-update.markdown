@@ -22,6 +22,8 @@ We used an imperative version of the fibonacci sequence algorithm to benchmark t
 
 Here are some [benchmarks](https://github.com/drujensen/fib#optimized) in most programming languages for comparison. Those benchmarks do use the recursion variant of the algorithm which does make the comparison *a bit* unfair. However, the results are still impressive, the PurpleVM executes bytecode at native speed and is faster than all the comparison benchmarks.
 
+If you would like to check out the benchmark code yourself, check it out on the [official repository](https://github.com/purpleprotocol/purple/blob/master/src/purple_vm/bench/vm_bench.rs). If you would like to run the benchmarks yourself, simply clone the repository and run `cargo bench -p purple_vm`.
+
 ### Next steps
 All this means the major focus will now become the network layer which itself is partially complete. Once the network layer is operational, we can commence public network testing. 
 
